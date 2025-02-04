@@ -54,7 +54,7 @@ export default App;*/
 export default App;*/
 
 //component composition
-import React from 'react'
+/*import React from 'react'
 import Footer from './components/Footer'
 import Main from './components/Main'
 import Navbar from './components/Navbar'
@@ -74,5 +74,19 @@ const App = () => {
   )
 }
 
-export default App
+export default App*/
+
+//props
+import React, { Component } from 'react'
+import CBCPropEx from './propsex/CBCPropEx'
+export default class App extends Component {
+  render() {
+    return (
+      <div>App
+        <CBCPropEx username="Vamshi"/>
+      </div>
+    )
+  }
+}
+
 
