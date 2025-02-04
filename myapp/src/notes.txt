@@ -1,0 +1,53 @@
+Single page applications-no refreshing, no reloading
+
+multi page application-refreshing,reloading will happen
+
+-React is mainly used to create a single page application.
+
+what is virtual DOM?
+-Virtual DOM is a virtual representation of a UI which is kept in a memory later synced(mapping) with 
+real DOM with the help of a library called "ReactDOM".
+
+-The updation of real dom with virtual DOM.
+
+-The entire process of updating the realDOM with the help of VDOM is called as"Reconcialities"
+
+JSX:'
+******
+-JSX stands for Javascript and XML
+-JSX is a Javascript syntax extension used to create HTML-like markup in the react.
+-Actual way to create a element in react is by using a method called as,
+  -React.createElement("tagname",{property:"value"}/null, content/children)
+let ele=React.createElement("div",{className:"App"},
+    React.createElement("h1",null,"Header")
+  );
+
+-JSX is not a part of react but it is recommend to use in react.
+
+Rules of JSX:-
+***************
+1. every element irrespective of paired/unpaired tag both must be closed.
+ex;- <h1></h1> , <input/>
+2.more than one jsx element is used then they must wrapped with one parent elememt.
+ex;- <div>
+<h1></h1>
+<p></p>
+</div>
+
+JSX expression:-
+-JSX expression is used to call the varaible, mathematical expression inside the elememt.
+synatx:- <h1>{varaible/expression}</h1>
+
+components:-
+************
+-components are the files /modules which consist of js related logics which can be reuse.
+1.class based components(CBC)
+2.functional based components(FBC)
+
+component composition:-
+***********************
+-component composition is used to combine multiple components into single application.
+
+shortcuts:
+to create class component-rcc
+arrow function -rafce
