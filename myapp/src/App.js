@@ -78,13 +78,29 @@ export default App*/
 
 //props
 import React, { Component } from 'react'
-import CBCPropEx from './propsex/CBCPropEx'
+import FBCPropEx from './propsex/FBCPropEx'
 export default class App extends Component {
   render() {
     return (
-      <div>App
-        <CBCPropEx username="Vamshi"/>
+      <div>
+        
+        {/*CBCPropEx 
+        username="Bhavana"
+        age={20}//number
+        hobbies={["Cooking","reading books","gardening"]}//array
+        address={{city:"Nizamabad",area:"Gandhinagar"}}//object
+        sendFun={function(){alert("hi i am bhavana")}}
+  
+        />*/}
+
+        <FBCPropEx
+        username="ram"
+        isMarried={true}
+        hobbies={["Chatting","Reading","Eating"]}
+        />
+        
       </div>
+
     )
   }
 }
