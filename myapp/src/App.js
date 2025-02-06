@@ -77,7 +77,7 @@ const App = () => {
 export default App*/
 
 //props
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import FBCPropEx from './propsex/FBCPropEx'
 export default class App extends Component {
   render() {
@@ -91,7 +91,7 @@ export default class App extends Component {
         address={{city:"Nizamabad",area:"Gandhinagar"}}//object
         sendFun={function(){alert("hi i am bhavana")}}
   
-        />*/}
+        />*//*}
 
         <FBCPropEx
         username="ram"
@@ -103,6 +103,41 @@ export default class App extends Component {
 
     )
   }
+}*/
+// !props children
+/*import React from 'react'
+import PropChildEx from './propsex/PropChildEx'
+import SubChild from './propsex/SubChild'
+import Child1 from './propsex/Child1'
+
+const App = () => {
+  return (
+    <div>
+    app
+      {/* <PropChildEx num={1000}>
+        <h1>this is data coming from props children</h1>
+        <SubChild/>
+      </PropChildEx> }
+      <Child1 university="Mallareddy university"/>
+    </div>
+  )
 }
+
+export default App*/
+
+import React from 'react'
+import FBCStateEx from './stateexample/FBCStateEx'
+
+const App = () => {
+  return (
+    <div>
+      {/*<CBCStateEx></CBCStateEx>*/}
+      <FBCStateEx/>
+    </div>
+  )
+}
+
+export default App
+
 
 

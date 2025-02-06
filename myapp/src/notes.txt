@@ -44,6 +44,62 @@ components:-
 1.class based components(CBC)
 2.functional based components(FBC)
 
+1.class based components(CBC):-
+*******************************
+- CBC is simlar to javscript es6 class.
+- CBC are "statefull" component because of default  state object present inside the class.
+syntax:-
+
+ class Person{
+    constructor(name , age){
+        this.name=name;
+        this.age=age;
+    }
+ }
+
+class Child extends Person{
+    constructor(name , age , city){
+        super(name , age);
+        this.city=city;
+    }
+}
+
+syntax :- 
+class App extends React.Component{
+    render(){
+        return(
+            //JSX
+        )
+    }
+}
+export default App;
+
+2.functional based component:-
+******************************
+- FBC are similar to JS functions.
+- FBC are "stateless" because there is no state object untill react v16.8.
+
+syntax :-  function App(){
+                return(
+
+                )
+            }
+            export default App;
+
+            OR
+            const App=()=>{
+                return(
+                    //jsx
+                )
+            }
+            export default App;
+
+Notee :- while ctreating a react compoennt the names must be started with capital letters.
+- extension of a component file must be .jsx/.js
+- How to call a component.
+    <App/> / <App></App>
+
+
 component composition:-
 ***********************
 -component composition is used to combine multiple components into single application.
