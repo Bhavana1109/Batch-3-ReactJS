@@ -125,19 +125,29 @@ const App = () => {
 
 export default App*/
 
-import React from 'react'
+/*import React from 'react'
 import FBCStateEx from './stateexample/FBCStateEx'
 
 const App = () => {
   return (
     <div>
-      {/*<CBCStateEx></CBCStateEx>*/}
+      {/*<CBCStateEx></CBCStateEx>}
       <FBCStateEx/>
     </div>
   )
 }
 
-export default App
+export default App*/
+import React, { Component } from 'react'
+import UseEffectEx from './hookexamples/UseEffectEx'
 
-
+export default class App extends Component {
+  render() {
+    return (
+      <div>App
+        <UseEffectEx/>
+      </div>
+    )
+  }
+}
 

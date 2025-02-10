@@ -114,3 +114,6 @@ Props:-
 - props is an object.
 - props is an object used to exchange information/data from parent component to child component.
 
+React.Fragments:-
+*******************
+-this will act as a parent element for the jsx elements and we can give key prop for this.
