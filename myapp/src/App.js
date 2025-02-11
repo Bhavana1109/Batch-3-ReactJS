@@ -138,7 +138,7 @@ const App = () => {
 }
 
 export default App*/
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 import UseEffectEx from './hookexamples/UseEffectEx'
 
 export default class App extends Component {
@@ -149,5 +149,22 @@ export default class App extends Component {
       </div>
     )
   }
+}*/
+import React, { Component } from 'react'
+import ContextAPI from './hookexamples/ContextAPI'
+import ContextC1 from './hookexamples/ContextC1'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>App
+        {/*<RefExamples/>*/}
+        <ContextAPI>
+          <ContextC1/>
+        </ContextAPI>
+      </div>
+    )
+  }
 }
+
 

@@ -117,3 +117,11 @@ Props:-
 React.Fragments:-
 *******************
 -this will act as a parent element for the jsx elements and we can give key prop for this.
+
+3.useRef():-
+************
+- ref is used to target native/real DOM elements.
+
+4. useContext():-
+*******************
+-to avoid props drilling we context api
