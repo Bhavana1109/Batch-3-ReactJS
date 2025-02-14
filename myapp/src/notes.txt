@@ -10,3 +10,20 @@ Routing in react:-
 7 - major version
 1 - minor version
 5 - patch version
+
+CRUD operations:
+****************
+C-create-POST()
+R-Read-GET()
+U-Update-PUT()
+d=delete-DELETE()
+
+https: hyper text transfer protocol secured
+http, smtp,ftp,tcp,ip,etc....
+
+-json server
+-npm install json-server -g
+
+-axios library to fetch the data
+-npm install axios
+json-server --watch users.json --port=8000

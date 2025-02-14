@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Krishna",
+      "email": "krishna@gmail.com",
+      "phone": "6789064456"
+    },
+    {
+      "id": "2",
+      "name": "Radha",
+      "email": "radha@gmail.com",
+      "phone": "8989064456"
+    },
+    {
+      "id": "3",
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "phone": "7889064456"
+    },
+    {
+      "id": "4",
+      "name": "Bhavana",
+      "email": "bhavana@gmail.com",
+      "phone": "7889064456"
+    },
+    {
+      "id": "7788",
+      "username": "",
+      "mail": "",
+      "phone": ""
+    },
+    {
+      "id": "a7e2",
+      "username": "",
+      "mail": "",
+      "phone": ""
+    },
+    {
+      "id": "3bb5",
+      "username": "",
+      "mail": "",
+      "phone": ""
+    },
+    {
+      "id": "edf7",
+      "username": "ghfvh",
+      "mail": "nbn@hgj",
+      "phone": "hjgj"
+    },
+    {
+      "id": "c3eb",
+      "name": "ewfr",
+      "email": "4r@gmail",
+      "phone": "r3345"
+    }
+  ]
+}
