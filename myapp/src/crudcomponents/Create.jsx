@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import {Link, useNavigate} from 'react-router-dom'
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import './create.css' 
 const Create = () => {
   const[name, setName]=useState('');
   const[email, setEMail]=useState('');
@@ -21,7 +22,7 @@ const Create = () => {
   
 }
   return (
-    <div>
+    <div className='formBlock'>
       <h1>Create User</h1>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder='name' value={name} 
